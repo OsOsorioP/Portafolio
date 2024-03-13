@@ -75,25 +75,23 @@
     &__img {
       width: 100%;
       height: auto;
-      border-radius: 1.7rem;
-      background-color: #76767633;
-      box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
       @media (max-width: 650px) {
         width: 100%;
-        padding-bottom: 2em;
       }
 
       img {
+        border: 1px solid rgb(0 0 0 / 10%);
         height: 100%;
         width: 100%;
         border-radius: 1.7rem;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
       }
     }
 
     &__text {
       width: 100%;
       height: auto;
-      margin-top: 1em;
+      padding: 2rem;
       @media (max-width: 1020px) {
         margin: 0 auto;
       }
@@ -136,10 +134,7 @@
 .links {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 3rem;
   gap: 1rem;
-  align-items: center;
-
   a {
     font-size: $text-size;
     color: $black-shade;

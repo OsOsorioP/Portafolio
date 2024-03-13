@@ -40,19 +40,6 @@
   justify-content: center;
   transition: all 0.3s ease-in-out;
 
-  span {
-    font-size: 3.3rem;
-    position: absolute;
-    top: 2rem;
-    right: 4rem;
-    cursor: pointer;
-
-    &:hover {
-      color: $header-color;
-      transition: all 0.3s;
-    }
-  }
-
   ul {
     display: flex;
     flex-direction: column;
