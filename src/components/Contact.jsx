@@ -10,8 +10,8 @@ export const Contact = () => {
       <div className="container">
         <div className="contact__content">
           <div className="contact__title">
-            <p>Contact</p>
-            <h3>Leave me an email, I will respond as soon as possible.</h3>
+            <p>Contacto</p>
+            <h3>Déjame un email, te responderé lo antes posible.</h3>
           </div>
           <div className="contact__icons">
             <div className="contact__icon-box">
@@ -19,7 +19,7 @@ export const Contact = () => {
                 <i><FaMapMarkedAlt size={30}/></i>
               </span>
               <div className="contact__info">
-                <h3>Location</h3>
+                <h3>Ubicación</h3>
                 <p>Colombia</p>
               </div>
             </div>
@@ -29,7 +29,7 @@ export const Contact = () => {
                 <IoIosMail size={30}/>
               </span>
               <div className="contact__info">
-                <h3>Mail</h3>
+                <h3>Correo</h3>
                 <a href="mailto:oscar.osorio1884@gmail.com">
                   oscar.osorio1884@gmail.com
                 </a>

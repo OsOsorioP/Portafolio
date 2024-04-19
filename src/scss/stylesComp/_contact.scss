@@ -5,7 +5,8 @@
 
 .contact {
   background-color: white;
-  padding: 11rem 0;
+  padding: 10.9rem;
+  margin-top: 15rem;
 
   @media (max-width: 1020px) {
     padding: 8rem 0;
@@ -38,14 +39,13 @@
   &__icons {
     display: flex;
     gap: 8rem;
-    flex-wrap: wrap;
     margin-top: 6rem;
-
+    align-items: center;
+    align-content: center;
     @media (max-width: 750px) {
       flex-direction: column;
       gap: 5rem;
       justify-content: center;
-      text-align: center;
     }
   }
 
@@ -57,6 +57,7 @@
     box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
     border-radius: 5%;
     padding: 15px;
+    width: 100%;
     @media (max-width: 750px) {
       flex-direction: column;
     }
@@ -75,7 +76,6 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-
     h3 {
       font-size: $text-size;
       color: $black-shade;
@@ -87,7 +87,6 @@
       color: $text-color;
       text-decoration: none;
       cursor: pointer;
-
       &:hover {
         color: $header-color;
         transition: all 0.3s;

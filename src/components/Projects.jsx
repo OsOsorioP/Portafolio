@@ -16,24 +16,24 @@ export const Projects = () => {
       <section id="projects" className="project">
         <div className="container">
           {<div className="project-content">
-            <p>portfolio</p>
-            <h3>Projects developed with great dedication. <BsStars color="#147efb" size={30} /></h3>
+            <p>portafolio</p>
+            <h3>Proyectos desarrollados con gran dedicación. <BsStars color="#147efb" size={30} /></h3>
             <div className="projects-grid">
               <ProBox
-                title="Ecommerce Butikk"
+                title="E-commerce Butikk"
                 img={img}
-                description="With a keen emphasis on simplicity and sleek design, this store prioritizes user experience, ensuring customers can effortlessly discover and purchase the products they desire."
+                description="Pienso que la simplicidad y el diseño elegante de esta tienda prioriza la experiencia del usuario, garantizando que los clientes puedan descubrir y comprar sin esfuerzo los productos que desean."
                 techno1="https://skillicons.dev/icons?i=vite"
-                techno2="https://skillicons.dev/icons?i=react"
+                techno2=""
                 techno3="https://skillicons.dev/icons?i=scss"
                 code="https://github.com/Oscar-Osorio-Dev/ecommerce-butikk"
                 demo="https://butikk-ecommerce.vercel.app"
               />
 
               <ProBox
-                title="project incoming..."
+                title="Proyecto entrante..."
                 img1=""
-                description="project incoming..."
+                description="Proyecto entrante..."
                 techno1="https://skillicons.dev/icons?i=flask"
                 techno2="https://skillicons.dev/icons?i=mysql"
                 techno3="https://skillicons.dev/icons?i=tailwind"
@@ -42,9 +42,9 @@ export const Projects = () => {
               />
 
               <ProBox
-                title="project incoming..."
+                title="Proyecto entrante..."
                 img1=""
-                description="project incoming..."
+                description="Proyecto entrante..."
                 techno1="https://skillicons.dev/icons?i=flask"
                 techno2="https://skillicons.dev/icons?i=postgres"
                 techno3="https://skillicons.dev/icons?i=tailwind"
@@ -53,9 +53,9 @@ export const Projects = () => {
               />
 
               <ProBox
-                title="project incoming..."
+                title="Proyecto entrante..."
                 img1=""
-                description="project incoming..."
+                description="Proyecto entrante..."
                 techno1="https://skillicons.dev/icons?i=flask"
                 techno2="https://skillicons.dev/icons?i=mongodb"
                 techno3="https://skillicons.dev/icons?i=tailwind"

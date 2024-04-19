@@ -4,13 +4,13 @@ import { FaLinkedin } from "react-icons/fa6";
 import React from 'react'
 
 export const Footer = () => {
+  let days = ["Domingo","Lunes","Marte","Miércoles","Jueves","Viernes","Sábado"]
   return (
     <>
       <footer>
         <div className="container">
           <div className="footerc">
-            <h3>
-              Copyright © {new Date().getFullYear()}. All rights are reserved
+            <h3 id="time">
             </h3>
             <div className="footerc__socials">
               <a

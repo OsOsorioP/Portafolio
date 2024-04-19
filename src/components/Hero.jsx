@@ -9,9 +9,16 @@ export const Hero = () => {
                     <div class="content">
                         <div class="hero-main">
                             <div class="hero-text">
-                                <h1>Hi, I'm Oscar Osorio</h1>
-                                <img src={img} alt="waving_hand" />
-                                <p>A passionate developer for programing based in Colombia.</p>
+                                <h1>Sobre mi</h1>
+                                <p>Soy Ingeniero de Sistemas en la Universidad de Pamplona.
+                                    Mi pasión es crear y desarrollar aplicaciones web para usuarios.
+                                    <br />
+                                    <br />
+                                    La programación me parece un mundo maravilloso, me gusta estar al tanto de nuevas herramientas de desarrollo y amo la música.
+                                </p>
+                            </div>
+                            <div class="hero-img"></div>
+                            <div className='hero-networks'>
                                 <span>
                                     <a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/oscar-osorio-dev/">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-linkedin">
@@ -27,8 +34,8 @@ export const Hero = () => {
                                     </a>
                                 </span>
                             </div>
-                            <div class="hero-img"></div>
                         </div>
+
                         <div class="skills">
                             <p>Tech Stack</p>
                             <div class="logos">

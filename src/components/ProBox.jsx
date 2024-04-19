@@ -28,8 +28,8 @@ export const ProBox = ({ title, img, description, techno1, techno2, techno3, cod
                         <p>{description}</p>
                     </div>
                     <div className='links'>
-                        <a  href={code}> <FaGithub size={25} /> </a>
-                        <a  href={demo}> <FaEye size={25} /> </a>
+                        <a  href={code} target="_blank"> <FaGithub size={25} /> </a>
+                        <a  href={demo} target="_blank"> <FaEye size={25} /> </a>
                     </div>
                 </div>
             </div>

@@ -3,9 +3,9 @@
 @use "../global/typhography" as *;
 
 .project {
-  background-color: $gray-bg-color;
-  padding: 10rem 0;
-
+  background-color: $background-color;
+  padding: 3rem;
+  margin-top: 15rem;
   @media (max-width: 1020px) {
     padding: 4rem 0;
   }
