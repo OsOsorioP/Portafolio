@@ -7,10 +7,6 @@ import img from '../assets/butikk.png';
 import React from 'react';
 
 export const Projects = () => {
-  const taechs = {
-    techno1: vite,
-    techno2: 'gh'
-  }
   return (
     <>
       <section id="projects" className="project">
@@ -62,6 +58,7 @@ export const Projects = () => {
                 code="#projects"
                 demo="#projects"
               />
+              
             </div>
           </div>}
         </div>
