@@ -19,7 +19,7 @@ export const Nav = () => {
                     <li><Link to="/" onClick={() => window.scrollTo(0, 0)}>Sobre mi</Link></li>
                     <li><Link to="/proyectos" onClick={() => window.scrollTo(0, 0)}>Proyectos</Link></li>
                     <li><Link to="/contacto" onClick={() => window.scrollTo(0, 0)}>Contacto</Link></li>
-                    <li><Link to='src\assets\cv.pdf' target='_blanck' onClick={() => window.scrollTo(0, 0)}>CV</Link></li>
+                    <li><Link to='src/assets/cv.pdf' target='_blanck' onClick={() => window.scrollTo(0, 0)}>CV</Link></li>
                 </ul>
                 <svg onClick={() => setMenuOpen(true)} xmlns="http://www.w3.org/2000/svg" width="30" height="30"
                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
