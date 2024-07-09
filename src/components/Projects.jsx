@@ -32,7 +32,7 @@ export const Projects = () => {
                 description="Proyecto entrante..."
                 techno1="https://skillicons.dev/icons?i=react"
                 techno2="https://skillicons.dev/icons?i=mongodb"
-                techno3="https://skillicons.dev/icons?i=css3"
+                techno3="https://skillicons.dev/icons?i=css"
                 code="#projects"
                 demo="#projects"
               />
