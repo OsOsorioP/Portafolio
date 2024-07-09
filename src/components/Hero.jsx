@@ -42,7 +42,7 @@ export const Hero = () => {
                                     <li>
                                         <img src="https://skillicons.dev/icons?i=html,css" alt="skill-icon" /></li>
                                     <li>
-                                        <img src="https://skillicons.dev/icons?i=js,python" alt="skill-icon" /></li>
+                                        <img src="https://skillicons.dev/icons?i=js,ts,python" alt="skill-icon" /></li>
                                     <li>
                                         <img src="https://skillicons.dev/icons?i=react,vite" alt="skill-icon" /></li>
                                     <li>
