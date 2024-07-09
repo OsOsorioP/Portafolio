@@ -19,7 +19,7 @@ export const Projects = () => {
                 title="E-commerce Butikk"
                 img={img}
                 description="Pienso que la simplicidad y el diseño elegante de esta tienda prioriza la experiencia del usuario, garantizando que los clientes puedan descubrir y comprar sin esfuerzo los productos que desean."
-                techno1="https://skillicons.dev/icons?i=vite"
+                techno1="https://skillicons.dev/icons?i=react"
                 techno2=""
                 techno3="https://skillicons.dev/icons?i=scss"
                 code="https://github.com/Oscar-Osorio-Dev/ecommerce-butikk"
@@ -27,12 +27,12 @@ export const Projects = () => {
               />
 
               <ProBox
-                title="Proyecto entrante..."
+                title="Task"
                 img1=""
                 description="Proyecto entrante..."
-                techno1="https://skillicons.dev/icons?i=flask"
-                techno2="https://skillicons.dev/icons?i=mysql"
-                techno3="https://skillicons.dev/icons?i=tailwind"
+                techno1="https://skillicons.dev/icons?i=react"
+                techno2="https://skillicons.dev/icons?i=mongodb"
+                techno3="https://skillicons.dev/icons?i=css3"
                 code="#projects"
                 demo="#projects"
               />
